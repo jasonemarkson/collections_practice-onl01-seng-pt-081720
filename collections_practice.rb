@@ -20,10 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  i = 0
-  array.each do 
-  << yield(array.string[3] = "$")
-  end
+  array.string[3] = "$")
 end
 
 def find_a(array)
