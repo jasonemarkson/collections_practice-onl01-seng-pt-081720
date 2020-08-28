@@ -38,7 +38,5 @@ end
 def add_s(array)
   array.each_with_index.collect do 
     |w, index| "#{w}s"
-    if w[1]
-      return "feet"
   end
 end
