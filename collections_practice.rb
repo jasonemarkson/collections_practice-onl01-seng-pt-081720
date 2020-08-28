@@ -21,11 +21,9 @@ end
 
 def kesha_maker(array)
   i = 0
-  ke$ha_array = []
   array.each do 
-  ke$ha_array << yield(array.string[3] = "$")
+  << yield(array.string[3] = "$")
   end
-  ke$ha_array
 end
 
 def find_a(array)
